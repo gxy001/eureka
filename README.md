@@ -1,6 +1,6 @@
 Eureka
 =====
-[![Build Status](https://netflixoss.ci.cloudbees.com/job/NetflixOSS/job/eureka/job/eureka-snapshot/badge/icon)](https://netflixoss.ci.cloudbees.com/job/NetflixOSS/job/eureka/job/eureka-snapshot/)
+[![Build Status](http://104.215.180.92:8080/job/build_job/badge/icon)](http://104.215.180.92:8080/job/build_job/)
 
 Eureka is a REST (Representational State Transfer) based service that is primarily used in the AWS cloud for locating services for the purpose of load balancing and failover of middle-tier servers.
 
