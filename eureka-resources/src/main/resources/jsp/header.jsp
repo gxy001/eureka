@@ -18,7 +18,7 @@
   }
   out.print("</h3>");
   %>
-  <h4 id="uptime"><font size="+1" color="red"><b>Environment: <%= ConfigurationManager.getDeploymentContext().getDeploymentEnvironment() %></b></font>, Data center: <%= ConfigurationManager.getDeploymentContext().getDeploymentDatacenter() %></h4>
+  <h4 id="uptime"><font size="+1" color="blue"><b>Environment: <%= ConfigurationManager.getDeploymentContext().getDeploymentEnvironment() %></b></font>, Data center: <%= ConfigurationManager.getDeploymentContext().getDeploymentDatacenter() %></h4>
   <%
   if(amazonInfo != null) {  
      out.print("<h4 id=\"uptime\">Zone: " + amazonInfo.get(AmazonInfo.MetaDataKey.availabilityZone) + ", instance-id: " + amazonInfo.get(AmazonInfo.MetaDataKey.instanceId));
