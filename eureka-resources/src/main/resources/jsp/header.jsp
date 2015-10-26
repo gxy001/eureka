@@ -41,6 +41,6 @@
   <% if (!registry.shouldAllowAccess(false)) { %>
     <h4 id="uptime"><font size="+1" color="red"><b>This server is not allowing registry fetch for local registry.</b></font></h4>
   <% } else if (!registry.shouldAllowAccess(true)) { %>
-    <h4 id="uptime"><font size="+1" color="red"><b>This server is not allowing registry fetch for remote registry.</b></font></h4>
+    <h4 id="uptime"><font size="+1" color="blue"><b>This server is not allowing registry fetch for remote registry.</b></font></h4>
   <%}%>
 </div>
